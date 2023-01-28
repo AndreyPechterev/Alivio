@@ -1,0 +1,56 @@
+.home {
+  min-height: 895px;
+  padding: 175px 0;
+  position: relative;
+}
+
+.home-content {
+  max-width: 440px;
+}
+
+.home-title {
+  font-family: 'Georgia', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 74px;
+  color: #01996D;
+  margin-bottom: 30px;
+}
+
+.home-text {
+  color: #484848;
+  line-height: 144.5%;
+  margin-bottom: 53px;
+  max-width: 430px;
+}
+
+.home-bg-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.home-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 991px) {
+  .home-bg-image img {
+    opacity: 0.5;
+  }
+
+  .home-title {
+    
+  }
+
+  .home {
+  padding: 40px 0;
+  min-height: unset;
+  }
+}
